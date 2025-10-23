@@ -1,0 +1,68 @@
+services:
+  sqlsource:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: dw_sqlsource
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=StrongPwd123!
+      - MSSQL_PID=Express
+    ports:
+      - "14333:1433"
+    volumes:
+      - ./docker/mssql/source/data:/var/opt/mssql/data
+      - ./docker/mssql/source/log:/var/opt/mssql/log
+      - ./docker/mssql/backups:/var/opt/mssql/backup
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "(/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P StrongPwd123! -Q \"SELECT 1\") || (/opt/mssql-tools/bin/sqlcmd -C -S localhost -U sa -P StrongPwd123! -Q \"SELECT 1\")",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  sqldw:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: dw_sqldw
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=StrongPwd123!
+      - MSSQL_PID=Express
+    ports:
+      - "14334:1433"
+    volumes:
+      - ./docker/mssql/dw/data:/var/opt/mssql/data
+      - ./docker/mssql/dw/log:/var/opt/mssql/log
+    depends_on:
+      sqlsource:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "(/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P StrongPwd123! -Q \"SELECT 1\") || (/opt/mssql-tools/bin/sqlcmd -C -S localhost -U sa -P StrongPwd123! -Q \"SELECT 1\")",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  etl:
+    build:
+      context: .
+      dockerfile: docker/etl/Dockerfile
+    container_name: dw_etl
+    depends_on:
+      sqlsource:
+        condition: service_healthy
+      sqldw:
+        condition: service_healthy
+    environment:
+      - SOURCE_CONN=Driver={ODBC Driver 18 for SQL Server};Server=sqlsource,1433;Database=DB_SALES;Uid=sa;Pwd=StrongPwd123!;Encrypt=no;TrustServerCertificate=yes;
+      - DW_CONN=Driver={ODBC Driver 18 for SQL Server};Server=sqldw,1433;Database=DW_DESIGN;Uid=sa;Pwd=StrongPwd123!;Encrypt=no;TrustServerCertificate=yes;
+      - SOURCE_BACKUP_PATH=/var/opt/mssql/backup/DB_SALES.bak
+      - DATA_DIR=/workspace/docker/etl/data
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+    command: ["python", "docker/etl/load_dw.py"]

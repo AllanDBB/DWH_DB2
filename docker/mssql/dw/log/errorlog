@@ -1,0 +1,381 @@
+2025-10-23 21:13:36.23 Server      Microsoft SQL Server 2022 (RTM-CU21) (KB5065865) - 16.0.4215.2 (X64) 
+	Aug 11 2025 13:24:21 
+	Copyright (C) 2022 Microsoft Corporation
+	Express Edition (64-bit) on Linux (Ubuntu 22.04.5 LTS) <X64>
+2025-10-23 21:13:36.23 Server      UTC adjustment: 0:00
+2025-10-23 21:13:36.23 Server      (c) Microsoft Corporation.
+2025-10-23 21:13:36.23 Server      All rights reserved.
+2025-10-23 21:13:36.24 Server      Server process ID is 500.
+2025-10-23 21:13:36.24 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2025-10-23 21:13:36.24 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2025-10-23 21:13:36.25 Server      SQL Server detected 1 sockets with 6 cores per socket and 12 logical processors per socket, 12 total logical processors; using 8 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2025-10-23 21:13:36.25 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2025-10-23 21:13:36.25 Server      Detected 6238 MB of RAM, 5071 MB of available memory, 5071 MB of available page file. This is an informational message; no user action is required.
+2025-10-23 21:13:36.26 Server      Using conventional memory in the memory manager.
+2025-10-23 21:13:36.26 Server      Detected pause instruction latency: 122 cycles.
+2025-10-23 21:13:36.26 Server      SQL Server detected the following NUMA node configuration (NUMA Node number 0, Processor Group number 0, CPU Mask 0x0000000000000fff).
+2025-10-23 21:13:36.26 Server      Page exclusion bitmap is enabled.
+2025-10-23 21:13:36.35 Server      Buffer pool extension is not supported on Linux platform.
+2025-10-23 21:13:36.38 Server      Buffer Pool: Allocating 8388608 bytes for 802987 hashPages.
+2025-10-23 21:13:36.50 Server      Buffer pool extension is already disabled. No action is necessary.
+2025-10-23 21:13:37.03 Server      Installing Client TLS certificates to the store.
+2025-10-23 21:13:37.13 Server      CPU vectorization level(s) detected:  SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX AVX2 POPCNT BMI1 BMI2
+2025-10-23 21:13:38.68 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2025-10-23 21:13:38.98 Server      Query Store settings initialized with enabled = 1, 
+2025-10-23 21:13:39.10 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2025-10-23 21:13:39.16 Server      Node configuration: node 0: CPU mask: 0x00000000000000ff:0 Active CPU mask: 0x00000000000000ff:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2025-10-23 21:13:39.82 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2025-10-23 21:13:40.07 Server      CLR version v4.0.30319 loaded.
+2025-10-23 21:13:40.08 Server      In-Memory OLTP initialized on lowend machine.
+2025-10-23 21:13:40.52 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2025-10-23 21:13:40.52 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2025-10-23 21:13:40.86 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2025-10-23 21:13:40.96 Server      clwb is selected for pmem flush operation.
+2025-10-23 21:13:40.97 Server      Software Usage Metrics is disabled.
+2025-10-23 21:13:41.10 spid28s     [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:41.10 spid28s     Starting up database 'master'.
+2025-10-23 21:13:41.48 Server      Common language runtime (CLR) functionality initialized.
+2025-10-23 21:13:41.50 Server      External governance manager initialized
+2025-10-23 21:13:42.16 spid28s     Converting database 'master' from version 927 to the current version 957.
+2025-10-23 21:13:42.16 spid28s     Database 'master' running the upgrade step from version 927 to version 928.
+2025-10-23 21:13:42.92 spid28s     Database 'master' running the upgrade step from version 928 to version 929.
+2025-10-23 21:13:42.97 spid28s     Database 'master' running the upgrade step from version 929 to version 930.
+2025-10-23 21:13:43.00 spid28s     Database 'master' running the upgrade step from version 930 to version 931.
+2025-10-23 21:13:43.04 spid28s     Database 'master' running the upgrade step from version 931 to version 932.
+2025-10-23 21:13:43.07 spid28s     Database 'master' running the upgrade step from version 932 to version 933.
+2025-10-23 21:13:43.11 spid28s     Database 'master' running the upgrade step from version 933 to version 934.
+2025-10-23 21:13:43.14 spid28s     Database 'master' running the upgrade step from version 934 to version 935.
+2025-10-23 21:13:44.22 spid28s     Database 'master' running the upgrade step from version 935 to version 936.
+2025-10-23 21:13:44.25 spid28s     Database 'master' running the upgrade step from version 936 to version 937.
+2025-10-23 21:13:44.27 spid28s     Database 'master' running the upgrade step from version 937 to version 938.
+2025-10-23 21:13:44.30 spid28s     Database 'master' running the upgrade step from version 938 to version 939.
+2025-10-23 21:13:44.32 spid28s     Database 'master' running the upgrade step from version 939 to version 940.
+2025-10-23 21:13:44.35 spid28s     Database 'master' running the upgrade step from version 940 to version 941.
+2025-10-23 21:13:44.37 spid28s     Database 'master' running the upgrade step from version 941 to version 942.
+2025-10-23 21:13:44.39 spid28s     Database 'master' running the upgrade step from version 942 to version 943.
+2025-10-23 21:13:44.58 spid28s     Database 'master' running the upgrade step from version 943 to version 944.
+2025-10-23 21:13:44.61 spid28s     Database 'master' running the upgrade step from version 944 to version 945.
+2025-10-23 21:13:44.66 spid28s     Database 'master' running the upgrade step from version 945 to version 946.
+2025-10-23 21:13:44.69 spid28s     Database 'master' running the upgrade step from version 946 to version 947.
+2025-10-23 21:13:44.72 spid28s     Database 'master' running the upgrade step from version 947 to version 948.
+2025-10-23 21:13:44.74 spid28s     Database 'master' running the upgrade step from version 948 to version 949.
+2025-10-23 21:13:44.78 spid28s     Database 'master' running the upgrade step from version 949 to version 950.
+2025-10-23 21:13:44.80 spid28s     Database 'master' running the upgrade step from version 950 to version 951.
+2025-10-23 21:13:44.85 spid28s     Database 'master' running the upgrade step from version 951 to version 952.
+2025-10-23 21:13:44.87 spid28s     Database 'master' running the upgrade step from version 952 to version 953.
+2025-10-23 21:13:44.90 spid28s     Database 'master' running the upgrade step from version 953 to version 954.
+2025-10-23 21:13:44.92 spid28s     Database 'master' running the upgrade step from version 954 to version 955.
+2025-10-23 21:13:44.94 spid28s     Database 'master' running the upgrade step from version 955 to version 956.
+2025-10-23 21:13:45.36 spid28s     Database 'master' running the upgrade step from version 956 to version 957.
+2025-10-23 21:13:46.02 spid40s     Attribute synchronization initialized
+2025-10-23 21:13:46.02 spid40s     Attribute synchronization manager initialized
+2025-10-23 21:13:46.03 spid28s     SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2025-10-23 21:13:46.04 spid28s     SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2025-10-23 21:13:46.77 spid28s     SQL Trace ID 1 was started by login "sa".
+2025-10-23 21:13:46.86 spid59s     Password policy update was successful.
+2025-10-23 21:13:46.87 spid28s     Server name is '2307987013e4'. This is an informational message only. No user action is required.
+2025-10-23 21:13:47.60 spid59s     A self-generated certificate was successfully loaded for encryption.
+2025-10-23 21:13:47.67 spid59s     Server is listening on [ 'any' <ipv6> 1433] accept sockets 1.
+2025-10-23 21:13:47.68 spid59s     Server is listening on [ 'any' <ipv4> 1433] accept sockets 1.
+2025-10-23 21:13:47.68 spid59s     Dedicated administrator connection support was not started because it is disabled on this edition of SQL Server. If you want to use a dedicated administrator connection, restart SQL Server using the trace flag 7806. This is an informational message only. No user action is required.
+2025-10-23 21:13:47.71 spid28s     [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:47.71 spid62s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2025-10-23 21:13:47.71 spid62s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2025-10-23 21:13:47.71 spid28s     Starting up database 'msdb'.
+2025-10-23 21:13:47.72 spid30s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:47.72 spid59s     Server is listening on [ ::1 <ipv6> 1431] accept sockets 1.
+2025-10-23 21:13:47.73 spid59s     Server is listening on [ 127.0.0.1 <ipv4> 1431] accept sockets 1.
+2025-10-23 21:13:47.73 spid59s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2025-10-23 21:13:47.74 spid30s     Starting up database 'mssqlsystemresource'.
+2025-10-23 21:13:47.77 spid30s     The resource database build version is 16.00.4215. This is an informational message only. No user action is required.
+2025-10-23 21:13:47.86 spid30s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:47.87 spid30s     Starting up database 'model'.
+2025-10-23 21:13:48.62 spid28s     Converting database 'msdb' from version 927 to the current version 957.
+2025-10-23 21:13:48.62 spid28s     Database 'msdb' running the upgrade step from version 927 to version 928.
+2025-10-23 21:13:48.66 spid28s     Database 'msdb' running the upgrade step from version 928 to version 929.
+2025-10-23 21:13:48.71 spid28s     Database 'msdb' running the upgrade step from version 929 to version 930.
+2025-10-23 21:13:48.75 spid28s     Database 'msdb' running the upgrade step from version 930 to version 931.
+2025-10-23 21:13:48.77 spid30s     Converting database 'model' from version 927 to the current version 957.
+2025-10-23 21:13:48.77 spid30s     Database 'model' running the upgrade step from version 927 to version 928.
+2025-10-23 21:13:48.80 spid30s     Database 'model' running the upgrade step from version 928 to version 929.
+2025-10-23 21:13:48.87 spid30s     Database 'model' running the upgrade step from version 929 to version 930.
+2025-10-23 21:13:48.93 spid30s     Database 'model' running the upgrade step from version 930 to version 931.
+2025-10-23 21:13:48.95 spid28s     Database 'msdb' running the upgrade step from version 931 to version 932.
+2025-10-23 21:13:48.96 spid30s     Database 'model' running the upgrade step from version 931 to version 932.
+2025-10-23 21:13:48.98 spid28s     Database 'msdb' running the upgrade step from version 932 to version 933.
+2025-10-23 21:13:48.99 spid30s     Database 'model' running the upgrade step from version 932 to version 933.
+2025-10-23 21:13:49.01 spid28s     Database 'msdb' running the upgrade step from version 933 to version 934.
+2025-10-23 21:13:49.03 spid30s     Database 'model' running the upgrade step from version 933 to version 934.
+2025-10-23 21:13:49.04 spid28s     Database 'msdb' running the upgrade step from version 934 to version 935.
+2025-10-23 21:13:49.06 spid30s     Database 'model' running the upgrade step from version 934 to version 935.
+2025-10-23 21:13:49.07 spid28s     Database 'msdb' running the upgrade step from version 935 to version 936.
+2025-10-23 21:13:49.09 spid30s     Database 'model' running the upgrade step from version 935 to version 936.
+2025-10-23 21:13:49.11 spid28s     Database 'msdb' running the upgrade step from version 936 to version 937.
+2025-10-23 21:13:49.12 spid30s     Database 'model' running the upgrade step from version 936 to version 937.
+2025-10-23 21:13:49.14 spid28s     Database 'msdb' running the upgrade step from version 937 to version 938.
+2025-10-23 21:13:49.16 spid30s     Database 'model' running the upgrade step from version 937 to version 938.
+2025-10-23 21:13:49.18 spid28s     Database 'msdb' running the upgrade step from version 938 to version 939.
+2025-10-23 21:13:49.19 spid30s     Database 'model' running the upgrade step from version 938 to version 939.
+2025-10-23 21:13:49.21 spid28s     Database 'msdb' running the upgrade step from version 939 to version 940.
+2025-10-23 21:13:49.22 spid30s     Database 'model' running the upgrade step from version 939 to version 940.
+2025-10-23 21:13:49.24 spid28s     Database 'msdb' running the upgrade step from version 940 to version 941.
+2025-10-23 21:13:49.26 spid30s     Database 'model' running the upgrade step from version 940 to version 941.
+2025-10-23 21:13:49.28 spid28s     Database 'msdb' running the upgrade step from version 941 to version 942.
+2025-10-23 21:13:49.29 spid30s     Database 'model' running the upgrade step from version 941 to version 942.
+2025-10-23 21:13:49.31 spid28s     Database 'msdb' running the upgrade step from version 942 to version 943.
+2025-10-23 21:13:49.33 spid30s     Database 'model' running the upgrade step from version 942 to version 943.
+2025-10-23 21:13:49.38 spid30s     Database 'model' running the upgrade step from version 943 to version 944.
+2025-10-23 21:13:49.41 spid30s     Database 'model' running the upgrade step from version 944 to version 945.
+2025-10-23 21:13:49.45 spid30s     Database 'model' running the upgrade step from version 945 to version 946.
+2025-10-23 21:13:49.47 spid30s     Database 'model' running the upgrade step from version 946 to version 947.
+2025-10-23 21:13:49.50 spid30s     Database 'model' running the upgrade step from version 947 to version 948.
+2025-10-23 21:13:49.53 spid30s     Database 'model' running the upgrade step from version 948 to version 949.
+2025-10-23 21:13:49.57 spid30s     Database 'model' running the upgrade step from version 949 to version 950.
+2025-10-23 21:13:49.59 spid28s     Database 'msdb' running the upgrade step from version 943 to version 944.
+2025-10-23 21:13:49.61 spid30s     Database 'model' running the upgrade step from version 950 to version 951.
+2025-10-23 21:13:49.62 spid28s     Database 'msdb' running the upgrade step from version 944 to version 945.
+2025-10-23 21:13:49.67 spid30s     Database 'model' running the upgrade step from version 951 to version 952.
+2025-10-23 21:13:49.70 spid30s     Database 'model' running the upgrade step from version 952 to version 953.
+2025-10-23 21:13:49.74 spid30s     Database 'model' running the upgrade step from version 953 to version 954.
+2025-10-23 21:13:49.78 spid30s     Database 'model' running the upgrade step from version 954 to version 955.
+2025-10-23 21:13:49.82 spid30s     Database 'model' running the upgrade step from version 955 to version 956.
+2025-10-23 21:13:49.84 spid28s     Database 'msdb' running the upgrade step from version 945 to version 946.
+2025-10-23 21:13:49.87 spid30s     Database 'model' running the upgrade step from version 956 to version 957.
+2025-10-23 21:13:49.87 spid28s     Database 'msdb' running the upgrade step from version 946 to version 947.
+2025-10-23 21:13:49.93 spid28s     Database 'msdb' running the upgrade step from version 947 to version 948.
+2025-10-23 21:13:49.97 spid28s     Database 'msdb' running the upgrade step from version 948 to version 949.
+2025-10-23 21:13:50.00 spid28s     Database 'msdb' running the upgrade step from version 949 to version 950.
+2025-10-23 21:13:50.04 spid28s     Database 'msdb' running the upgrade step from version 950 to version 951.
+2025-10-23 21:13:50.07 spid30s     Clearing tempdb database.
+2025-10-23 21:13:50.10 spid28s     Database 'msdb' running the upgrade step from version 951 to version 952.
+2025-10-23 21:13:50.12 spid28s     Database 'msdb' running the upgrade step from version 952 to version 953.
+2025-10-23 21:13:50.34 spid28s     Database 'msdb' running the upgrade step from version 953 to version 954.
+2025-10-23 21:13:50.36 spid28s     Database 'msdb' running the upgrade step from version 954 to version 955.
+2025-10-23 21:13:50.39 spid28s     Database 'msdb' running the upgrade step from version 955 to version 956.
+2025-10-23 21:13:50.45 spid28s     Database 'msdb' running the upgrade step from version 956 to version 957.
+2025-10-23 21:13:52.45 spid30s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:52.46 spid30s     Starting up database 'tempdb'.
+2025-10-23 21:13:53.30 spid62s     The Service Broker endpoint is in disabled or stopped state.
+2025-10-23 21:13:53.31 spid62s     The Database Mirroring endpoint is in disabled or stopped state.
+2025-10-23 21:13:53.32 spid62s     Service Broker manager has started.
+2025-10-23 21:13:53.33 spid28s     Recovery is complete. This is an informational message only. No user action is required.
+2025-10-23 21:13:53.35 spid36s     The default language (LCID 0) has been set for engine and full-text services.
+2025-10-23 21:13:59.96 spid72      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:13:59.97 spid72      Starting up database 'DW_DESIGN'.
+2025-10-23 21:13:59.97 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:13:59.97 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:14:00.88 spid72      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:14:00.92 spid72      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:15:46.98 spid101     [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:15:46.98 spid101     Starting up database 'DW_DESIGN'.
+2025-10-23 21:15:46.98 spid101     RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:15:46.99 spid101     RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:15:48.05 spid101     Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:15:48.20 spid101     Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:18:45.23 spid52      Attempting to load library 'xplog70.dll' into memory. This is an informational message only. No user action is required.
+2025-10-23 21:18:45.27 spid52      Using 'xplog70.dll' version '2022.160.4215' to execute extended stored procedure 'xp_msver'. This is an informational message only; no user action is required.
+2025-10-23 21:18:51.19 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:18:51.19 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 21:18:51.20 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:18:51.21 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:18:52.36 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:18:52.42 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:20:40.95 spid52      Using 'dbghelp.dll' version '4.0.5'
+2025-10-23 21:33:58.32 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:33:58.32 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 21:33:58.32 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:33:58.32 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:33:59.47 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:33:59.54 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:34:47.66 spid67      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:34:47.66 spid67      Starting up database 'DW_DESIGN'.
+2025-10-23 21:34:47.66 spid67      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:34:47.66 spid67      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:34:48.87 spid67      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:34:48.92 spid67      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:37:39.60 spid69      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:37:39.60 spid69      Starting up database 'DW_DESIGN'.
+2025-10-23 21:37:39.60 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:37:39.60 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:37:40.80 spid69      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:37:40.87 spid69      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:39:33.59 spid74      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:39:33.59 spid74      Starting up database 'DW_DESIGN'.
+2025-10-23 21:39:33.60 spid74      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:39:33.60 spid74      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:39:34.53 spid74      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:39:34.59 spid74      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:41:14.07 spid74      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:41:14.08 spid74      Starting up database 'DW_DESIGN'.
+2025-10-23 21:41:14.08 spid74      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:41:14.08 spid74      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:41:15.32 spid74      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:41:15.40 spid74      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:43:33.06 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:43:33.06 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 21:43:33.06 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:43:33.06 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:43:34.06 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:43:34.30 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:44:06.61 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:44:06.61 spid51      Starting up database 'DW_DESIGN'.
+2025-10-23 21:44:06.61 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:44:06.61 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:44:07.59 spid51      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:44:07.70 spid51      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:46:58.01 spid81      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:46:58.02 spid81      Starting up database 'DW_DESIGN'.
+2025-10-23 21:46:58.02 spid81      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:46:58.03 spid81      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:46:58.75 spid81      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:46:58.87 spid81      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:49:53.00 spid72      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:49:53.00 spid72      Starting up database 'DW_DESIGN'.
+2025-10-23 21:49:53.00 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:49:53.01 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:49:54.13 spid72      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:49:54.29 spid72      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:50:36.54 spid71      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:50:36.55 spid71      Starting up database 'DW_DESIGN'.
+2025-10-23 21:50:36.55 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:50:36.55 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:50:37.32 spid71      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:50:37.49 spid71      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:50:54.22 spid71      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:50:54.23 spid71      Starting up database 'DW_DESIGN'.
+2025-10-23 21:50:54.23 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:50:54.23 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:50:55.33 spid71      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:50:55.47 spid71      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:51:48.02 spid72      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:51:48.03 spid72      Starting up database 'DW_DESIGN'.
+2025-10-23 21:51:48.03 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:51:48.03 spid72      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:51:48.82 spid72      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:51:48.96 spid72      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:53:21.22 spid6s      [DevOpsSnapshotTelemetryTask] Evaluating the background task.
+2025-10-23 21:53:55.90 spid69      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:53:55.91 spid69      Starting up database 'DW_DESIGN'.
+2025-10-23 21:53:55.91 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:53:55.91 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:53:57.20 spid69      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:53:57.36 spid69      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:20.72 spid69      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:54:20.72 spid69      Starting up database 'DW_DESIGN'.
+2025-10-23 21:54:20.72 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:54:20.72 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:54:22.09 spid69      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:22.27 spid69      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:32.94 spid69      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:54:32.95 spid69      Starting up database 'DW_DESIGN'.
+2025-10-23 21:54:32.95 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:54:32.95 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:54:34.09 spid69      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:34.25 spid69      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:48.63 spid69      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:54:48.63 spid69      Starting up database 'DW_DESIGN'.
+2025-10-23 21:54:48.63 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:54:48.63 spid69      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:54:49.84 spid69      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:54:50.01 spid69      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:03.72 spid70      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:55:03.73 spid70      Starting up database 'DW_DESIGN'.
+2025-10-23 21:55:03.73 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:55:03.74 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:55:04.77 spid70      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:04.91 spid70      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:17.58 spid70      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:55:17.58 spid70      Starting up database 'DW_DESIGN'.
+2025-10-23 21:55:17.59 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:55:17.59 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:55:18.90 spid70      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:19.13 spid70      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:47.91 spid70      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:55:47.91 spid70      Starting up database 'DW_DESIGN'.
+2025-10-23 21:55:47.91 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:55:47.92 spid70      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:55:49.42 spid70      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:55:49.62 spid70      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:59:55.78 spid71      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 21:59:55.78 spid71      Starting up database 'DW_DESIGN'.
+2025-10-23 21:59:55.78 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 21:59:55.78 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 21:59:56.98 spid71      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 21:59:57.12 spid71      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:01:33.15 spid71      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:01:33.15 spid71      Starting up database 'DW_DESIGN'.
+2025-10-23 22:01:33.15 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:01:33.16 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:01:34.04 spid71      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:01:34.34 spid71      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:01:40.00 spid71      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:01:40.01 spid71      Starting up database 'DW_DESIGN'.
+2025-10-23 22:01:40.01 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:01:40.01 spid71      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:01:41.02 spid71      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:01:41.16 spid71      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:05:14.36 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:05:14.36 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 22:05:14.36 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:05:14.37 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:05:15.81 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:05:16.04 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:10.11 spid75      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:17:10.12 spid75      Starting up database 'DW_DESIGN'.
+2025-10-23 22:17:10.12 spid75      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:17:10.12 spid75      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:17:11.27 spid75      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:11.48 spid75      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:32.03 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:17:32.03 spid51      Starting up database 'DW_DESIGN'.
+2025-10-23 22:17:32.04 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:17:32.04 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:17:32.90 spid51      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:33.02 spid51      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:40.16 spid51      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:17:40.17 spid51      Starting up database 'DW_DESIGN'.
+2025-10-23 22:17:40.17 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:17:40.18 spid51      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:17:41.26 spid51      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:17:41.47 spid51      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:50.27 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:21:50.29 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 22:21:50.29 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:21:50.29 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:21:51.45 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:51.71 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:52.80 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:21:52.81 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 22:21:52.81 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:21:52.82 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:21:53.94 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:54.17 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:55.25 spid52      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:21:55.26 spid52      Starting up database 'DW_DESIGN'.
+2025-10-23 22:21:55.26 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:21:55.26 spid52      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:21:56.10 spid52      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:21:56.26 spid52      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:28.84 spid54      Attempting to load library 'xpstar.dll' into memory. This is an informational message only. No user action is required.
+2025-10-23 22:22:29.09 spid54      Using 'xpstar.dll' version '2022.160.4215' to execute extended stored procedure 'xp_instance_regread'. This is an informational message only; no user action is required.
+2025-10-23 22:22:29.15 spid54      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:22:29.15 spid54      Starting up database 'DW_DESIGN'.
+2025-10-23 22:22:29.16 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:22:29.16 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:22:30.38 spid54      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:30.54 spid54      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:30.80 spid54      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:22:30.81 spid54      Starting up database 'DW_DESIGN'.
+2025-10-23 22:22:30.82 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:22:30.82 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:22:32.01 spid54      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:32.19 spid54      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:41.15 spid54      [5]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1. ConcurrentGAMUpdate: 1. ConcurrentSGAMUpdate: 1, CleanupUnderUserTransaction: 0. TranLevelPVS: 0
+2025-10-23 22:22:41.16 spid54      Starting up database 'DW_DESIGN'.
+2025-10-23 22:22:41.16 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries called for database ID: [5]
+2025-10-23 22:22:41.16 spid54      RemoveStaleDbEntries: Cleanup of stale DB entries skipped because master db is not memory optimized. DbId: 5.
+2025-10-23 22:22:42.14 spid54      Parallel redo is started for database 'DW_DESIGN' with worker pool size [4].
+2025-10-23 22:22:42.36 spid54      Parallel redo is shutdown for database 'DW_DESIGN' with worker pool size [4].
